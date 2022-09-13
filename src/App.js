@@ -4,8 +4,12 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <h1 className="text-sm font-bold underline text-red-600">
+      Hello world!
+    </h1>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
